@@ -2,7 +2,7 @@
 using namespace std;
 
 int arr[32];
-int mini = 9999999999999999999;
+int mini = INT_MAX;
 
 void Difference(int i, int sum_m, int sum_p, int n) {
     if (i == n) {
